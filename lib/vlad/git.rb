@@ -3,7 +3,7 @@ class Vlad::Git
   # Duh.
   VERSION = "2.2.0"
 
-  set :source,  Vlad::Git.new
+  set :scm_source,  Vlad::Git.new
   set :git_cmd, "git"
 
   # Returns the command that will check out +revision+ from the
